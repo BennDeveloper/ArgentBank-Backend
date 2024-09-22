@@ -278,37 +278,25 @@ definitions:
   
   
   
-  Transaction:
-    type: object
-    properties:
-      id:
-        type: string
-      acountId:
-        type: string
-      date:
-        type: string
-      description:
-        type: string
-      amount:
-        type: number
-      balance:
-        type: number
-        
-        
-        
-        
-  transactions:
-    type: object
-    properties:
-      id:
-        type: string
-      acountId:
-        type: string
-      transaction type:
-        type: string
-      category:
-        type: string
-      note:
-        type: string
-        
+ Transaction:
+  type: object
+  properties:
+    id:
+      type: string
+    acountId:
+      type: string
+    date:
+      type: string
+    description:
+      type: string
+    amount:
+      type: number
+    balance:
+      type: number
+    transactionType:
+      type: string
+    category:
+      type: string
+    note:
+      type: string
         
